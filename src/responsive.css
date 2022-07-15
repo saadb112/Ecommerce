@@ -1,0 +1,131 @@
+@media screen and (max-width : 733px) {
+    .card{
+        width: 200px;
+        height: 300px;
+    }.card img {
+        width: 200px;
+        height: 200px;
+    }
+    .card .text .title {
+        font-size: 2.8rem;
+    }
+    .card .text p {
+        font-size: 2.8rem;
+    }
+    .buy{
+     width: 23rem;
+     height: 5rem;
+     font-size: 2.8rem;
+    }
+}
+ @media screen and (max-width : 1300px) {
+    .Main .row {
+        width: 100%;
+    }
+    html{
+        font-size: 55%;
+      }
+} 
+@media screen and (max-width : 1070px) {
+    html{
+        font-size: 50%;
+      }
+      .contain{
+        width: 90%;
+      }
+      .category{
+        display: none;
+      }
+      .slider{
+        width: 90%;
+      }
+}
+@media screen and (max-width : 930px) {
+    html{
+        font-size: 45%;
+      }
+      .Main .row .R1 img {
+        width: 45rem;
+        height: 45rem;
+    }
+}
+@media screen and (max-width :786px) {
+    html{
+        font-size: 42%;
+      }
+      .Main .row .R1 img {
+        width: 42rem;
+        height: 42rem;
+    }
+    .carousel {
+        width: 90%;
+      
+    }
+}
+@media screen and (max-width : 690px) {
+    .Main{
+    margin-top: 7rem;
+    }
+    .Main .row {
+       
+        align-items: center;
+        flex-direction: column;
+    }
+    .Main .row .R1 img{
+        width: 50rem;
+        height: 50rem;
+    }
+    .Main .row .R1 {
+        width: 50rem;
+        height: auto;
+    }
+    .Main .row .R1 .text .blue {
+    font-size: 2rem;
+}.Main .row .R1 .text h3 {
+    font-size: 3rem;
+    margin: 10px 0;
+}
+.Main .row .R1 .btns {
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.Main .row .R1 .btns{
+    justify-content: space-between;
+    width: 100%;
+}
+.Main .row .R1 .btns .quantity .btn2 button, .Main .row .R1 .btns .quantity .btn2 input{
+    width: 5rem;
+    height: 5rem;
+}
+}
+@media screen and (max-width : 600px) {
+    .Main{
+        margin-top: 15.2rem;
+    }
+    .carousel {
+        margin: 0 auto;
+        margin-top: 75px;
+    }
+}
+@media screen and (max-width : 425px) {
+    .carousel{
+        height: calc(80vh - 88px);
+    }
+    .w-100{
+        height: calc(80vh - 88px);
+        
+    }
+    .top {
+        height: 80vh;
+    }
+}
+@media screen and (max-width : 400px) {
+    .Main .row .R1 img {
+        width: 40rem;
+        height: 40rem;
+    }
+    .Main .row .R1 {
+        width: 40rem;
+        height: auto;
+    }
+}
